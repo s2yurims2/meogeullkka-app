@@ -486,8 +486,8 @@ with st.form("diet_form"):
         height = st.number_input("키(cm)", min_value=120.0, max_value=220.0, value=160.0)
 
     with col2:
-        current_weight = st.number_input("현재 몸무게(kg)", min_value=30.0, max_value=250.0, value=58.0)
-        target_weight = st.number_input("목표 몸무게(kg)", min_value=30.0, max_value=250.0, value=52.0)
+        current_weight = st.number_input("현재 몸무게(kg)", min_value=30.0, max_value=250.0, value=52.0)
+        target_weight = st.number_input("목표 몸무게(kg)", min_value=30.0, max_value=250.0, value=49.0)
         period_weeks = st.number_input("목표 기간(주)", min_value=1, max_value=52, value=8)
 
     activity = st.selectbox(
