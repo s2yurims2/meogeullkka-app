@@ -5,6 +5,7 @@ from typing import Any, Dict, List
 import streamlit as st
 from openai import OpenAI
 
+st.write(st.secrets)
 # -----------------------------
 # Page config
 # -----------------------------
