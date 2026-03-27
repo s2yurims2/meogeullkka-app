@@ -7,6 +7,8 @@ import streamlit as st
 from openai import OpenAI
 
 st.write(st.secrets)
+st.write("secrets keys:", list(st.secrets.keys()))
+st.write("has key:", "OPENAI_API_KEY" in st.secrets)
 # -----------------------------
 # Page config
 # -----------------------------
